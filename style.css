@@ -1,0 +1,137 @@
+.house_area {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.wall {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(29, 80, 71, 0.753);
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+}
+
+.door {
+    width: 50px;
+    height: 90px;
+    background-color: firebrick;
+    position: absolute;
+    left: 270px;
+    bottom: 0;
+}
+
+.window1 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 226, 226);
+    position: absolute;
+    left: 180px;
+    bottom: 30px;
+}
+
+.window2 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 226, 226);
+    position: absolute;
+    left: 180px;
+    bottom: 120px;
+}
+
+.window3 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 226, 226);
+    position: absolute;
+    left: 260px;
+    bottom: 120px;
+}
+
+.resh11{
+    width: 4px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left: 288px;
+    bottom: 120px;
+}
+
+.resh12{
+    width: 4px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left: 208px;
+    bottom: 120px;
+}
+
+.resh13{
+    width: 4px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left: 208px;
+    bottom: 30px;
+}
+
+.resh21{
+    width: 60px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    left: 180px;
+    bottom: 57px;
+}
+
+.resh22{
+    width: 60px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    left: 180px;
+    bottom: 147px;
+}
+
+.resh23{
+    width: 60px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    left: 260px;
+    bottom: 147px;
+}
+
+.roof {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(59, 228, 149);
+    z-index: 2;
+}
+
+.handle {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    left: 306px;
+    bottom: 40px;
+}
+
+.chimney {
+    width: 30px;
+    height: 40px;
+    background-color: firebrick;
+    position: absolute;
+    left: 170px;
+    bottom: 220px;
+}
